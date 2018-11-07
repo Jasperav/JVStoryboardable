@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVStoryboardable_Tests' do
+  pod 'JVStoryboardable', :path => '../'
+  
+  
+end
