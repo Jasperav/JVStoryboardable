@@ -1,0 +1,16 @@
+PODS:
+  - JVStoryboardable (0.1.0)
+
+DEPENDENCIES:
+  - JVStoryboardable (from `../`)
+
+EXTERNAL SOURCES:
+  JVStoryboardable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVStoryboardable: 5eda837c10ff7bdae31ea3ebb7a11fb606193620
+
+PODFILE CHECKSUM: 2122ed39aca0a0a59971a249d355853a2f879f7d
+
+COCOAPODS: 1.6.0.beta.1

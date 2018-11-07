@@ -1,0 +1,6 @@
+framework module JVStoryboardable {
+  umbrella header "JVStoryboardable-umbrella.h"
+
+  export *
+  module * { export * }
+}
