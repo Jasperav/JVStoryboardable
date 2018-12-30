@@ -17,7 +17,7 @@
 		607FACE51AFB9204008FA782 /* JVStoryboardable_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JVStoryboardable_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		73C315EE80BE9B273F3007EB /* JVStoryboardable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JVStoryboardable.podspec; path = ../JVStoryboardable.podspec; sourceTree = "<group>"; };
+		73C315EE80BE9B273F3007EB /* JVStoryboardable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JVStoryboardable.podspec; path = ../JVStoryboardable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC5529ED1C29F7C910FF828D /* Pods-JVStoryboardable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JVStoryboardable_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JVStoryboardable_Tests/Pods-JVStoryboardable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD1311A8AF3F25C08308E181 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA7FF0AA7CFA0E5DE9F82FB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -176,12 +176,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JVStoryboardable_Tests/Pods-JVStoryboardable_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JVContentType/JVContentType.framework",
 				"${BUILT_PRODUCTS_DIR}/JVStoryboardable/JVStoryboardable.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVContentType.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVStoryboardable.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

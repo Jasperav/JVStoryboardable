@@ -1,16 +1,23 @@
 PODS:
-  - JVStoryboardable (0.1.0)
+  - JVContentType (0.1.7)
+  - JVStoryboardable (0.1.0):
+    - JVContentType
 
 DEPENDENCIES:
   - JVStoryboardable (from `../`)
+
+SPEC REPOS:
+  "https://Jasperav@bitbucket.org/Jasperav/specs.git":
+    - JVContentType
 
 EXTERNAL SOURCES:
   JVStoryboardable:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVStoryboardable: 5eda837c10ff7bdae31ea3ebb7a11fb606193620
+  JVContentType: bf617302d029baefccde48eb79edc7634fd15f55
+  JVStoryboardable: 83f48a676134a6d983d49154fae0fe7f3afb44c5
 
-PODFILE CHECKSUM: 2122ed39aca0a0a59971a249d355853a2f879f7d
+PODFILE CHECKSUM: 7b3825f3e53487210de9caf4c6a6001f265768ef
 
 COCOAPODS: 1.6.0.beta.1

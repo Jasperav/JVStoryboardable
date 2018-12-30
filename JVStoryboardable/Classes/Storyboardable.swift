@@ -5,12 +5,12 @@ public protocol Storyboardable where Self: UIViewController {
 }
 
 public extension Storyboardable {
-    public static func determineStoryboard() -> UIStoryboard {
+    static func determineStoryboard() -> UIStoryboard {
         return contentTypeStoryboardId.contentTypeStoryboard.storyboard
     }
     
     /// Make sure the storyboard id holds the same name as the class name
-    public static func instantiateViewController() -> Self {
+    static func instantiateViewController() -> Self {
         let className = String(describing: Self.self)
         
         /// 1. Determine the storyboard the viewController is in.

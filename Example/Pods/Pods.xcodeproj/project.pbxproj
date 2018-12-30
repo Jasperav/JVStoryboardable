@@ -7,89 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01DFFDEF09727A353EC20EBE8E4E3C6A /* Pods-JVStoryboardable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BDD2377E8F356873919574D20C273B /* Pods-JVStoryboardable_Tests-dummy.m */; };
-		2A00F7D3B26CCC680D55BC7C050F8581 /* Pods-JVStoryboardable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9965AE0AB8D5521859E4B1104B0B08A9 /* Pods-JVStoryboardable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0D5A07E2B408FB1EF360FEC6B357C9F /* JVStoryboardable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3936103637DDE8AD59FD5B070DEE9CE7 /* JVStoryboardable-dummy.m */; };
-		C2697B4D3C2DD82EBD962147DA965F01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		C3CD1A848CED4E9B0A18047B4494FDEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CA256783BBBF2EBE38597144239AF65E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE75AC9C833D93E980E4BA893A76F36 /* ReplaceMe.swift */; };
-		EC1DADE03F285809240EFC507A3DDFC8 /* JVStoryboardable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B3727FAC770EDB41D08BFCD92873D8 /* JVStoryboardable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1115BFD05AFA760341F179636434EBA8 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09220CF91576117439080BB513B2563D /* JVContentType-dummy.m */; };
+		2154C5A9242F8DDFC3FDFD734E2A789D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0BC874B9A70AAC13FC94844C5A49B9 /* StringExtensions.swift */; };
+		395C76BD93E07B7F62BF8F900DD22E98 /* JVStoryboardable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEAE2F2C1F0D3F64981265949E73C7E /* JVStoryboardable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452912D997C7315EE0C41428149952E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C29468027D094A93D1AEAD1EF493B9D /* Foundation.framework */; };
+		4AC1C7F9AF93952881CE0DD9337B69AA /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46127889672581B7E3D3153FDF0643BA /* Copyable.swift */; };
+		4FF35A192D31202D6C0DA34B4C5EAA39 /* Pods-JVStoryboardable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9965AE0AB8D5521859E4B1104B0B08A9 /* Pods-JVStoryboardable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5097A9C0CF3ED31E0008831DE99F1273 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7272472502A84A931B3E644B13F0D1A /* Storyboardable.swift */; };
+		5416B00E9A2B5AFE5081AA2AFB599FE7 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA3350ADFFE61D634B6432F12201BED /* ContentTypeGroup.swift */; };
+		5B3F97E9F4B16910DCA3F0907B4E0AD1 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D368A1CA3D6463148EFF5E9352BBE9C /* ContentType.swift */; };
+		5DC5C75CBEA8351F02B27CB763792016 /* Pods-JVStoryboardable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BDD2377E8F356873919574D20C273B /* Pods-JVStoryboardable_Tests-dummy.m */; };
+		6491B8D1EC73E55ED5E3AFEEFE2AF915 /* JVStoryboardable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7493870FA3A2942F1C9C551A6ADB5 /* JVStoryboardable-dummy.m */; };
+		77ABDF087AD8DF974E2CD240356A20EF /* ContentTypeStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB91DB022F1B05D243350F513929667 /* ContentTypeStoryboard.swift */; };
+		7B0EDD5906971483773329446F4147F2 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF768BFAA2899675869C4233D5088C79 /* JVContentType.framework */; };
+		7E51FEE619531080345D22331D921EBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C29468027D094A93D1AEAD1EF493B9D /* Foundation.framework */; };
+		8D4FB88285E1BD38281946380D5CEE17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C29468027D094A93D1AEAD1EF493B9D /* Foundation.framework */; };
+		90D061B9DB5B697FF49634BA64952FE2 /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1023055DC77985F86F2906A7B74DE0 /* ContentTypeGroupInitializable.swift */; };
+		923DE298CB4CF0B89F2881620C7774E7 /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D0F1B447DAE82AA794B9930587CC9E /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75020612D4B82B055E5756C60104E57 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF5745EF0905416999499DACC8F90 /* CollectionExtensions.swift */; };
+		C61C0501E3016333F94772AF20D408FC /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4238357E0C1F22AA12A18135702ECC /* ContentTypeInitializable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55C0BABF1EF9A0DEE1296DDD72DD05A4 /* PBXContainerItemProxy */ = {
+		2024E93711F264EBA3E63466A35B0DFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E4F48203C92D17FD6928D25F787B1E9A;
+			remoteGlobalIDString = 5A732E43EA604F86191F5FB1FBF4C7AC;
+			remoteInfo = JVContentType;
+		};
+		9B2FE179DCF9B7EDCBAE1DE0FEC1FD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A732E43EA604F86191F5FB1FBF4C7AC;
+			remoteInfo = JVContentType;
+		};
+		F251181BB64C365BF5AC94799742DC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81EA8BF19991FDA1B46E26F64F7CA7B7;
 			remoteInfo = JVStoryboardable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CE75AC9C833D93E980E4BA893A76F36 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JVStoryboardable/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		09220CF91576117439080BB513B2563D /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
 		11768E177491250B343432642D1B8CFD /* Pods-JVStoryboardable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVStoryboardable_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3936103637DDE8AD59FD5B070DEE9CE7 /* JVStoryboardable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVStoryboardable-dummy.m"; sourceTree = "<group>"; };
-		3A998571F5E22BEC6F2095DC24624289 /* JVStoryboardable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVStoryboardable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B078C4F36019BD112C517E273A28D3D /* JVStoryboardable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVStoryboardable.xcconfig; sourceTree = "<group>"; };
+		3D368A1CA3D6463148EFF5E9352BBE9C /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
+		43BAF5745EF0905416999499DACC8F90 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVContentType/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
+		46127889672581B7E3D3153FDF0643BA /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
+		4A626C90E77AEFDB0BB2422FF3502E98 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
+		52D8026165E3350FD29DADFDECD2B3AC /* JVStoryboardable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVStoryboardable.modulemap; sourceTree = "<group>"; };
 		54B185A1A51805603C72E1FC64EFAE39 /* Pods-JVStoryboardable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVStoryboardable_Tests-Info.plist"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		65E482FDB8285DF56A77FA3B5F3144BA /* Pods-JVStoryboardable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVStoryboardable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6AD491DF5F5D2B1127ABC91F4FECA2C9 /* Pods_JVStoryboardable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVStoryboardable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678FEC1A4C3CF8A3B830305CD2255ABD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6AA3350ADFFE61D634B6432F12201BED /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
+		6B96FF7CB49CE89984F1CF0624BBD4D5 /* JVStoryboardable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JVStoryboardable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C29468027D094A93D1AEAD1EF493B9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FB91DB022F1B05D243350F513929667 /* ContentTypeStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStoryboard.swift; path = JVStoryboardable/Classes/ContentTypeStoryboard.swift; sourceTree = "<group>"; };
+		71D0F1B447DAE82AA794B9930587CC9E /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
 		724720898F4D87A3F09FAF0114C38688 /* Pods-JVStoryboardable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVStoryboardable_Tests.modulemap"; sourceTree = "<group>"; };
+		7295A74714C11735E11635602BF78C3A /* JVStoryboardable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVStoryboardable.xcconfig; sourceTree = "<group>"; };
 		73BDD2377E8F356873919574D20C273B /* Pods-JVStoryboardable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVStoryboardable_Tests-dummy.m"; sourceTree = "<group>"; };
-		831E298994D3E2AA7358DF881282E7EE /* JVStoryboardable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVStoryboardable-Info.plist"; sourceTree = "<group>"; };
-		9230C612176E3472F6D4AB22D9FB7C7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9830451B9544B28751EB4B5F4420661B /* JVStoryboardable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVStoryboardable.modulemap; sourceTree = "<group>"; };
+		8CD7493870FA3A2942F1C9C551A6ADB5 /* JVStoryboardable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVStoryboardable-dummy.m"; sourceTree = "<group>"; };
+		8E1023055DC77985F86F2906A7B74DE0 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		981249B00297F93B3147326460FF7B34 /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
 		9965AE0AB8D5521859E4B1104B0B08A9 /* Pods-JVStoryboardable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVStoryboardable_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9BA87A82AF39C649A753E9E755BE7CF7 /* JVStoryboardable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVStoryboardable-prefix.pch"; sourceTree = "<group>"; };
-		A1B3727FAC770EDB41D08BFCD92873D8 /* JVStoryboardable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVStoryboardable-umbrella.h"; sourceTree = "<group>"; };
+		B262E401F03369CE55BA1341D2878279 /* JVStoryboardable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVStoryboardable-Info.plist"; sourceTree = "<group>"; };
 		B31CC02C8A4B062779F8C1FC21741972 /* Pods-JVStoryboardable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVStoryboardable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C79CE64E3DF55356FBCC1B673BB88A1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D107649B87307A1DD721E88678B5C552 /* JVStoryboardable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVStoryboardable.podspec; sourceTree = "<group>"; };
+		B7272472502A84A931B3E644B13F0D1A /* Storyboardable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storyboardable.swift; path = JVStoryboardable/Classes/Storyboardable.swift; sourceTree = "<group>"; };
+		B8A7AF501A580E4F62BD31958BFBE732 /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
+		BBE6FFB4C309F2925E44FD6CD2A83EDC /* Pods_JVStoryboardable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVStoryboardable_Tests.framework; path = "Pods-JVStoryboardable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A39FE1E4C7470599E099B2EE1A256D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D31AD7B79C9C4545F0DBAFF3F8A7918B /* JVStoryboardable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVStoryboardable.framework; path = JVStoryboardable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4238357E0C1F22AA12A18135702ECC /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
 		DD5B250040D05E9EBDD574EDC10058C4 /* Pods-JVStoryboardable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVStoryboardable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E03F6EAC6D928AFA157C50385AF7594A /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
+		E5184DFCD234E175B4F6FB070FC3F463 /* JVStoryboardable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVStoryboardable-prefix.pch"; sourceTree = "<group>"; };
+		E7B55DF6EC9F126A8F3EE83E80CE8F1C /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEAE2F2C1F0D3F64981265949E73C7E /* JVStoryboardable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVStoryboardable-umbrella.h"; sourceTree = "<group>"; };
+		ED0BC874B9A70AAC13FC94844C5A49B9 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVStoryboardable/Classes/StringExtensions.swift; sourceTree = "<group>"; };
 		F57561695D59309F29AC973961C86D39 /* Pods-JVStoryboardable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVStoryboardable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF768BFAA2899675869C4233D5088C79 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8B94BE11B0A601466BB5F6469C5126C4 /* Frameworks */ = {
+		2C7F04936F559E7D4F21578B43953BFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2697B4D3C2DD82EBD962147DA965F01 /* Foundation.framework in Frameworks */,
+				452912D997C7315EE0C41428149952E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF125CE9407D30D170ADDBFC3AE45972 /* Frameworks */ = {
+		760F94E263972F1D94D3B1171806FEAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3CD1A848CED4E9B0A18047B4494FDEF /* Foundation.framework in Frameworks */,
+				8D4FB88285E1BD38281946380D5CEE17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA244A656C5ED50D43826DAFDD91E881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E51FEE619531080345D22331D921EBD /* Foundation.framework in Frameworks */,
+				7B0EDD5906971483773329446F4147F2 /* JVContentType.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C282975234A843AA96A239600192DD4 /* JVStoryboardable */ = {
+		081B77910A68F66AD95B2847D7DF6CCC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0CE75AC9C833D93E980E4BA893A76F36 /* ReplaceMe.swift */,
-				FACF66560E7348D5185E815FEF0595D1 /* Pod */,
-				B90D9620A6536233C3B25FB46B4505A1 /* Support Files */,
+				FF768BFAA2899675869C4233D5088C79 /* JVContentType.framework */,
+				65DC40BB992E30E5E93714F6916BCA4A /* iOS */,
 			);
-			name = JVStoryboardable;
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1BAC97ACF7E8E61235B524A7E7D6560B /* Products */ = {
+		0C560D0DF2EFFE5C236CF0CE6A16FD02 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3A998571F5E22BEC6F2095DC24624289 /* JVStoryboardable.framework */,
-				6AD491DF5F5D2B1127ABC91F4FECA2C9 /* Pods_JVStoryboardable_Tests.framework */,
+				6B96FF7CB49CE89984F1CF0624BBD4D5 /* JVStoryboardable.podspec */,
+				678FEC1A4C3CF8A3B830305CD2255ABD /* LICENSE */,
+				C6A39FE1E4C7470599E099B2EE1A256D /* README.md */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2CA27B8783F2877AF9B92B310B5142B0 /* Pods-JVStoryboardable_Tests */ = {
@@ -109,29 +159,67 @@
 			path = "Target Support Files/Pods-JVStoryboardable_Tests";
 			sourceTree = "<group>";
 		};
-		449E6D38D3558BE88463F57ED16AE310 /* Development Pods */ = {
+		3BB981CB87981532B0624B65CB3537CA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0C282975234A843AA96A239600192DD4 /* JVStoryboardable */,
+				E8657AFC8835640BD0AE86711019A37C /* JVStoryboardable */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		3BC8C45AB0BBD84C19F4BD59B9A7C126 /* JVContentType */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				43BAF5745EF0905416999499DACC8F90 /* CollectionExtensions.swift */,
+				3D368A1CA3D6463148EFF5E9352BBE9C /* ContentType.swift */,
+				6AA3350ADFFE61D634B6432F12201BED /* ContentTypeGroup.swift */,
+				8E1023055DC77985F86F2906A7B74DE0 /* ContentTypeGroupInitializable.swift */,
+				DB4238357E0C1F22AA12A18135702ECC /* ContentTypeInitializable.swift */,
+				46127889672581B7E3D3153FDF0643BA /* Copyable.swift */,
+				4F74713F43D6EB743E5C7146E79575DE /* Support Files */,
+			);
+			name = JVContentType;
+			path = JVContentType;
+			sourceTree = "<group>";
+		};
+		4F74713F43D6EB743E5C7146E79575DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A7AF501A580E4F62BD31958BFBE732 /* JVContentType.modulemap */,
+				E03F6EAC6D928AFA157C50385AF7594A /* JVContentType.xcconfig */,
+				09220CF91576117439080BB513B2563D /* JVContentType-dummy.m */,
+				981249B00297F93B3147326460FF7B34 /* JVContentType-Info.plist */,
+				4A626C90E77AEFDB0BB2422FF3502E98 /* JVContentType-prefix.pch */,
+				71D0F1B447DAE82AA794B9930587CC9E /* JVContentType-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVContentType";
+			sourceTree = "<group>";
+		};
+		65DC40BB992E30E5E93714F6916BCA4A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C29468027D094A93D1AEAD1EF493B9D /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		727A958C21084350F84ECE22C779E4A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BC8C45AB0BBD84C19F4BD59B9A7C126 /* JVContentType */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				449E6D38D3558BE88463F57ED16AE310 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1BAC97ACF7E8E61235B524A7E7D6560B /* Products */,
+				3BB981CB87981532B0624B65CB3537CA /* Development Pods */,
+				081B77910A68F66AD95B2847D7DF6CCC /* Frameworks */,
+				727A958C21084350F84ECE22C779E4A3 /* Pods */,
+				FC25C3E8C321D94F8A2961F9B4334EEA /* Products */,
 				A9D980946825AA72CB14CECF51766E20 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -144,95 +232,128 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B90D9620A6536233C3B25FB46B4505A1 /* Support Files */ = {
+		E1D7C2F5E7FCE84A6436F4D5BABF905A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9830451B9544B28751EB4B5F4420661B /* JVStoryboardable.modulemap */,
-				4B078C4F36019BD112C517E273A28D3D /* JVStoryboardable.xcconfig */,
-				3936103637DDE8AD59FD5B070DEE9CE7 /* JVStoryboardable-dummy.m */,
-				831E298994D3E2AA7358DF881282E7EE /* JVStoryboardable-Info.plist */,
-				9BA87A82AF39C649A753E9E755BE7CF7 /* JVStoryboardable-prefix.pch */,
-				A1B3727FAC770EDB41D08BFCD92873D8 /* JVStoryboardable-umbrella.h */,
+				52D8026165E3350FD29DADFDECD2B3AC /* JVStoryboardable.modulemap */,
+				7295A74714C11735E11635602BF78C3A /* JVStoryboardable.xcconfig */,
+				8CD7493870FA3A2942F1C9C551A6ADB5 /* JVStoryboardable-dummy.m */,
+				B262E401F03369CE55BA1341D2878279 /* JVStoryboardable-Info.plist */,
+				E5184DFCD234E175B4F6FB070FC3F463 /* JVStoryboardable-prefix.pch */,
+				ECEAE2F2C1F0D3F64981265949E73C7E /* JVStoryboardable-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JVStoryboardable";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E8657AFC8835640BD0AE86711019A37C /* JVStoryboardable */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				6FB91DB022F1B05D243350F513929667 /* ContentTypeStoryboard.swift */,
+				B7272472502A84A931B3E644B13F0D1A /* Storyboardable.swift */,
+				ED0BC874B9A70AAC13FC94844C5A49B9 /* StringExtensions.swift */,
+				0C560D0DF2EFFE5C236CF0CE6A16FD02 /* Pod */,
+				E1D7C2F5E7FCE84A6436F4D5BABF905A /* Support Files */,
 			);
-			name = Frameworks;
+			name = JVStoryboardable;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		FACF66560E7348D5185E815FEF0595D1 /* Pod */ = {
+		FC25C3E8C321D94F8A2961F9B4334EEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D107649B87307A1DD721E88678B5C552 /* JVStoryboardable.podspec */,
-				9230C612176E3472F6D4AB22D9FB7C7C /* LICENSE */,
-				C79CE64E3DF55356FBCC1B673BB88A1B /* README.md */,
+				E7B55DF6EC9F126A8F3EE83E80CE8F1C /* JVContentType.framework */,
+				D31AD7B79C9C4545F0DBAFF3F8A7918B /* JVStoryboardable.framework */,
+				BBE6FFB4C309F2925E44FD6CD2A83EDC /* Pods_JVStoryboardable_Tests.framework */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A7F8E5D5FCD17AB17EAA2004486421B /* Headers */ = {
+		28E4AFBC05A5295198F960CB27AABD84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A00F7D3B26CCC680D55BC7C050F8581 /* Pods-JVStoryboardable_Tests-umbrella.h in Headers */,
+				923DE298CB4CF0B89F2881620C7774E7 /* JVContentType-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E20B9C019E744F8D0503F865E1252FD7 /* Headers */ = {
+		3B9E7917370AFBADA67F476AC41D0390 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1DADE03F285809240EFC507A3DDFC8 /* JVStoryboardable-umbrella.h in Headers */,
+				4FF35A192D31202D6C0DA34B4C5EAA39 /* Pods-JVStoryboardable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DD3FB1AE0CB03B179F9810FF7E100C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395C76BD93E07B7F62BF8F900DD22E98 /* JVStoryboardable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		83DB4C433B38579010D8D6C49245F295 /* Pods-JVStoryboardable_Tests */ = {
+		3FD51E300FB325FAA6F5B0A9FA18D767 /* Pods-JVStoryboardable_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7505A1DF18BACE21E8919BD296859079 /* Build configuration list for PBXNativeTarget "Pods-JVStoryboardable_Tests" */;
+			buildConfigurationList = 4C024A943B70CCD3C4F8B5B2CA96DA72 /* Build configuration list for PBXNativeTarget "Pods-JVStoryboardable_Tests" */;
 			buildPhases = (
-				2A7F8E5D5FCD17AB17EAA2004486421B /* Headers */,
-				E5598047F3AE2205A4B133B98CE92417 /* Sources */,
-				BF125CE9407D30D170ADDBFC3AE45972 /* Frameworks */,
-				075ADB140AD018B3C171837B5CD07FFB /* Resources */,
+				3B9E7917370AFBADA67F476AC41D0390 /* Headers */,
+				38EEFD1A96B59AED047188F5387AF256 /* Sources */,
+				2C7F04936F559E7D4F21578B43953BFC /* Frameworks */,
+				9376AF43DEC94330BD5A2A7C885F5289 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DA1B7065CF450A659C864C82C0FD019C /* PBXTargetDependency */,
+				2500D8841B8E69B3D431FDBDE2DC6D86 /* PBXTargetDependency */,
+				7CA7B92293D247208635409DFADB68EC /* PBXTargetDependency */,
 			);
 			name = "Pods-JVStoryboardable_Tests";
 			productName = "Pods-JVStoryboardable_Tests";
-			productReference = 6AD491DF5F5D2B1127ABC91F4FECA2C9 /* Pods_JVStoryboardable_Tests.framework */;
+			productReference = BBE6FFB4C309F2925E44FD6CD2A83EDC /* Pods_JVStoryboardable_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E4F48203C92D17FD6928D25F787B1E9A /* JVStoryboardable */ = {
+		5A732E43EA604F86191F5FB1FBF4C7AC /* JVContentType */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F5F275DBDC07C22ACD7231890077EF9 /* Build configuration list for PBXNativeTarget "JVStoryboardable" */;
+			buildConfigurationList = 6A676011F824AFF6CC84AA2F906006D8 /* Build configuration list for PBXNativeTarget "JVContentType" */;
 			buildPhases = (
-				E20B9C019E744F8D0503F865E1252FD7 /* Headers */,
-				575EA11CC7873ACE6487E3030D25F04E /* Sources */,
-				8B94BE11B0A601466BB5F6469C5126C4 /* Frameworks */,
-				058A786ECB3D2B68D09874562C4602E0 /* Resources */,
+				28E4AFBC05A5295198F960CB27AABD84 /* Headers */,
+				60F54B9C0E53EAEE3CBE1168198B1B96 /* Sources */,
+				760F94E263972F1D94D3B1171806FEAB /* Frameworks */,
+				969A1576D6F61EE212272B4F5ADA4EF0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = JVContentType;
+			productName = JVContentType;
+			productReference = E7B55DF6EC9F126A8F3EE83E80CE8F1C /* JVContentType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81EA8BF19991FDA1B46E26F64F7CA7B7 /* JVStoryboardable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4576F9A36949C55DBA44825A7F9C4588 /* Build configuration list for PBXNativeTarget "JVStoryboardable" */;
+			buildPhases = (
+				95DD3FB1AE0CB03B179F9810FF7E100C /* Headers */,
+				4DFD0E8F760567388CCE095B823DE3BB /* Sources */,
+				AA244A656C5ED50D43826DAFDD91E881 /* Frameworks */,
+				48BE7F249C9DD28675925B9FB2FEA90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC551D4F89FE6FE9BA0EA37C5B9D06C9 /* PBXTargetDependency */,
+			);
 			name = JVStoryboardable;
 			productName = JVStoryboardable;
-			productReference = 3A998571F5E22BEC6F2095DC24624289 /* JVStoryboardable.framework */;
+			productReference = D31AD7B79C9C4545F0DBAFF3F8A7918B /* JVStoryboardable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,25 +373,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1BAC97ACF7E8E61235B524A7E7D6560B /* Products */;
+			productRefGroup = FC25C3E8C321D94F8A2961F9B4334EEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4F48203C92D17FD6928D25F787B1E9A /* JVStoryboardable */,
-				83DB4C433B38579010D8D6C49245F295 /* Pods-JVStoryboardable_Tests */,
+				5A732E43EA604F86191F5FB1FBF4C7AC /* JVContentType */,
+				81EA8BF19991FDA1B46E26F64F7CA7B7 /* JVStoryboardable */,
+				3FD51E300FB325FAA6F5B0A9FA18D767 /* Pods-JVStoryboardable_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		058A786ECB3D2B68D09874562C4602E0 /* Resources */ = {
+		48BE7F249C9DD28675925B9FB2FEA90F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		075ADB140AD018B3C171837B5CD07FFB /* Resources */ = {
+		9376AF43DEC94330BD5A2A7C885F5289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969A1576D6F61EE212272B4F5ADA4EF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,165 +409,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		575EA11CC7873ACE6487E3030D25F04E /* Sources */ = {
+		38EEFD1A96B59AED047188F5387AF256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D5A07E2B408FB1EF360FEC6B357C9F /* JVStoryboardable-dummy.m in Sources */,
-				CA256783BBBF2EBE38597144239AF65E /* ReplaceMe.swift in Sources */,
+				5DC5C75CBEA8351F02B27CB763792016 /* Pods-JVStoryboardable_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5598047F3AE2205A4B133B98CE92417 /* Sources */ = {
+		4DFD0E8F760567388CCE095B823DE3BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01DFFDEF09727A353EC20EBE8E4E3C6A /* Pods-JVStoryboardable_Tests-dummy.m in Sources */,
+				77ABDF087AD8DF974E2CD240356A20EF /* ContentTypeStoryboard.swift in Sources */,
+				6491B8D1EC73E55ED5E3AFEEFE2AF915 /* JVStoryboardable-dummy.m in Sources */,
+				5097A9C0CF3ED31E0008831DE99F1273 /* Storyboardable.swift in Sources */,
+				2154C5A9242F8DDFC3FDFD734E2A789D /* StringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F54B9C0E53EAEE3CBE1168198B1B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75020612D4B82B055E5756C60104E57 /* CollectionExtensions.swift in Sources */,
+				5B3F97E9F4B16910DCA3F0907B4E0AD1 /* ContentType.swift in Sources */,
+				5416B00E9A2B5AFE5081AA2AFB599FE7 /* ContentTypeGroup.swift in Sources */,
+				90D061B9DB5B697FF49634BA64952FE2 /* ContentTypeGroupInitializable.swift in Sources */,
+				C61C0501E3016333F94772AF20D408FC /* ContentTypeInitializable.swift in Sources */,
+				4AC1C7F9AF93952881CE0DD9337B69AA /* Copyable.swift in Sources */,
+				1115BFD05AFA760341F179636434EBA8 /* JVContentType-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DA1B7065CF450A659C864C82C0FD019C /* PBXTargetDependency */ = {
+		2500D8841B8E69B3D431FDBDE2DC6D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 5A732E43EA604F86191F5FB1FBF4C7AC /* JVContentType */;
+			targetProxy = 2024E93711F264EBA3E63466A35B0DFD /* PBXContainerItemProxy */;
+		};
+		7CA7B92293D247208635409DFADB68EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVStoryboardable;
-			target = E4F48203C92D17FD6928D25F787B1E9A /* JVStoryboardable */;
-			targetProxy = 55C0BABF1EF9A0DEE1296DDD72DD05A4 /* PBXContainerItemProxy */;
+			target = 81EA8BF19991FDA1B46E26F64F7CA7B7 /* JVStoryboardable */;
+			targetProxy = F251181BB64C365BF5AC94799742DC45 /* PBXContainerItemProxy */;
+		};
+		FC551D4F89FE6FE9BA0EA37C5B9D06C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 5A732E43EA604F86191F5FB1FBF4C7AC /* JVContentType */;
+			targetProxy = 9B2FE179DCF9B7EDCBAE1DE0FEC1FD45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		35A9B9E6C1A0E4301D724C827DD45768 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B078C4F36019BD112C517E273A28D3D /* JVStoryboardable.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVStoryboardable/JVStoryboardable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVStoryboardable/JVStoryboardable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVStoryboardable/JVStoryboardable.modulemap";
-				PRODUCT_MODULE_NAME = JVStoryboardable;
-				PRODUCT_NAME = JVStoryboardable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3EE3A499E3EED759F807716B9F7EE5C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B078C4F36019BD112C517E273A28D3D /* JVStoryboardable.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVStoryboardable/JVStoryboardable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVStoryboardable/JVStoryboardable-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVStoryboardable/JVStoryboardable.modulemap";
-				PRODUCT_MODULE_NAME = JVStoryboardable;
-				PRODUCT_NAME = JVStoryboardable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		9C5AF3D6F5938D4B0B0199A9575EBE5A /* Debug */ = {
+		2885B2E1FA84F8FF247779F4BA02884D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B31CC02C8A4B062779F8C1FC21741972 /* Pods-JVStoryboardable_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -450,7 +484,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JVStoryboardable_Tests/Pods-JVStoryboardable_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JVStoryboardable_Tests/Pods-JVStoryboardable_Tests.modulemap";
@@ -469,11 +503,12 @@
 			};
 			name = Debug;
 		};
-		B2E5439F9D56BBD0C633627366B886F8 /* Release */ = {
+		296A0498626497F7DD0F4B0270E96111 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD5B250040D05E9EBDD574EDC10058C4 /* Pods-JVStoryboardable_Tests.release.xcconfig */;
+			baseConfigurationReference = 7295A74714C11735E11635602BF78C3A /* JVStoryboardable.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -483,20 +518,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JVStoryboardable_Tests/Pods-JVStoryboardable_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVStoryboardable/JVStoryboardable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVStoryboardable/JVStoryboardable-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JVStoryboardable_Tests/Pods-JVStoryboardable_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/JVStoryboardable/JVStoryboardable.modulemap";
+				PRODUCT_MODULE_NAME = JVStoryboardable;
+				PRODUCT_NAME = JVStoryboardable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -504,7 +539,77 @@
 			};
 			name = Release;
 		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		36349E4583C8D6E6E25DA7FFF7BC332F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03F6EAC6D928AFA157C50385AF7594A /* JVContentType.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58E19EE7B8294D691B820C03FFF203D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03F6EAC6D928AFA157C50385AF7594A /* JVContentType.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -564,10 +669,140 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		A64BAE6ECF45FB908E44E9A3A4F63B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7295A74714C11735E11635602BF78C3A /* JVStoryboardable.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVStoryboardable/JVStoryboardable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVStoryboardable/JVStoryboardable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVStoryboardable/JVStoryboardable.modulemap";
+				PRODUCT_MODULE_NAME = JVStoryboardable;
+				PRODUCT_NAME = JVStoryboardable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA6CD97E00E63485F0A5E6579B6C55B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5B250040D05E9EBDD574EDC10058C4 /* Pods-JVStoryboardable_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVStoryboardable_Tests/Pods-JVStoryboardable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVStoryboardable_Tests/Pods-JVStoryboardable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -575,26 +810,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */,
+				B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F5F275DBDC07C22ACD7231890077EF9 /* Build configuration list for PBXNativeTarget "JVStoryboardable" */ = {
+		4576F9A36949C55DBA44825A7F9C4588 /* Build configuration list for PBXNativeTarget "JVStoryboardable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EE3A499E3EED759F807716B9F7EE5C7 /* Debug */,
-				35A9B9E6C1A0E4301D724C827DD45768 /* Release */,
+				A64BAE6ECF45FB908E44E9A3A4F63B1C /* Debug */,
+				296A0498626497F7DD0F4B0270E96111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7505A1DF18BACE21E8919BD296859079 /* Build configuration list for PBXNativeTarget "Pods-JVStoryboardable_Tests" */ = {
+		4C024A943B70CCD3C4F8B5B2CA96DA72 /* Build configuration list for PBXNativeTarget "Pods-JVStoryboardable_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C5AF3D6F5938D4B0B0199A9575EBE5A /* Debug */,
-				B2E5439F9D56BBD0C633627366B886F8 /* Release */,
+				2885B2E1FA84F8FF247779F4BA02884D /* Debug */,
+				BA6CD97E00E63485F0A5E6579B6C55B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A676011F824AFF6CC84AA2F906006D8 /* Build configuration list for PBXNativeTarget "JVContentType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E19EE7B8294D691B820C03FFF203D0 /* Debug */,
+				36349E4583C8D6E6E25DA7FFF7BC332F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
